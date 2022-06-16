@@ -35,9 +35,6 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "work_tables"
-    },
-    "test": {
-      "type": "string"
     }
   }
 }
