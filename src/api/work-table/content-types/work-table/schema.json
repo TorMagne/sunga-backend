@@ -12,21 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "workDate": {
-      "type": "date",
-      "default": "2022-06-16",
-      "required": true
-    },
-    "workStartTime": {
-      "type": "time",
-      "default": "00:00",
-      "required": true
-    },
-    "workEndTime": {
-      "type": "time",
-      "required": true,
-      "default": "00:00"
-    },
     "workDetails": {
       "type": "richtext"
     },
@@ -35,6 +20,17 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "work_tables"
+    },
+    "workDate": {
+      "type": "string",
+      "required": true
+    },
+    "workStartTime": {
+      "type": "string",
+      "required": true
+    },
+    "workEndTime": {
+      "type": "string"
     }
   }
 }
