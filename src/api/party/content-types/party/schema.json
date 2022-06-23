@@ -4,7 +4,8 @@
   "info": {
     "singularName": "party",
     "pluralName": "parties",
-    "displayName": "Party"
+    "displayName": "Party",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -32,15 +33,6 @@
       "type": "string",
       "required": true
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "Firma",
-        "Privat"
-      ],
-      "default": "Privat",
-      "required": true
-    },
     "orgnumber": {
       "type": "string"
     },
@@ -62,6 +54,15 @@
     },
     "entertainment": {
       "type": "richtext",
+      "required": true
+    },
+    "privateOrCompany": {
+      "type": "string",
+      "required": true
+    },
+    "isFinished": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }
