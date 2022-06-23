@@ -16,12 +16,7 @@
       "type": "string",
       "required": true
     },
-    "date": {
-      "type": "date",
-      "required": true,
-      "default": "2022-06-17"
-    },
-    "adress": {
+    "address": {
       "type": "string",
       "required": true
     },
@@ -30,13 +25,6 @@
       "required": true
     },
     "phone": {
-      "type": "string",
-      "required": true
-    },
-    "orgnumber": {
-      "type": "string"
-    },
-    "count": {
       "type": "string",
       "required": true
     },
@@ -64,6 +52,17 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "Date": {
+      "type": "string",
+      "required": true
+    },
+    "orgNumber": {
+      "type": "biginteger"
+    },
+    "countPeople": {
+      "required": true,
+      "type": "biginteger"
     }
   }
 }
