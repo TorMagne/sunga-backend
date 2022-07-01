@@ -24,10 +24,6 @@
       "type": "string",
       "required": true
     },
-    "phone": {
-      "type": "string",
-      "required": true
-    },
     "food": {
       "type": "richtext",
       "required": true
@@ -63,6 +59,10 @@
     "countPeople": {
       "required": true,
       "type": "biginteger"
+    },
+    "phone": {
+      "type": "biginteger",
+      "required": true
     }
   }
 }
