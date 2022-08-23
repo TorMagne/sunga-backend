@@ -63,19 +63,15 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "isAdmin": {
-      "type": "boolean",
-      "default": false
-    },
-    "isMod": {
-      "type": "boolean",
-      "default": false
-    },
     "work_tables": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::work-table.work-table",
       "mappedBy": "user"
+    },
+    "isAdmin": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
