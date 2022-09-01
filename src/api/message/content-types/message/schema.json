@@ -21,6 +21,10 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "messages"
+    },
+    "isRead": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
